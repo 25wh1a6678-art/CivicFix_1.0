@@ -111,3 +111,24 @@ Login → View queue → Open report → Update status (logged to timeline) → 
 | Verified resolution flow (before/after, location match, verify/dispute, lock) | 4–5 |
 | Admin dashboard (queue, filters, stats) | 3–4 |
 | Polish / demo prep (UI cleanup, seed data, README) | 2–3 |
+
+---
+
+## Session Checkpoint — Resume Here Next Time
+
+**Completed so far:**
+- [x] Vite + React scaffold committed and pushed
+- [x] Dependencies installed: `@supabase/supabase-js`, `react-router-dom`, `leaflet`, `react-leaflet`
+- [x] Folder structure: `src/pages/`, `src/components/`, `src/lib/`, `src/hooks/`
+- [x] `src/lib/supabase.js` — Supabase client (reads from `.env.local`)
+- [x] `src/App.jsx` — React Router wired with all 5 routes
+- [x] Placeholder pages: Home, Login, ReportIssue, IssueDetail, AdminDashboard
+- [x] `.env.local` created (keys not filled yet)
+
+**Next step (start here):**
+1. Create Supabase project at supabase.com → grab Project URL + anon key → paste into `.env.local`
+2. Run DB schema in Supabase SQL editor (tables: `issues`, `status_updates`, `confirmations`, `users`)
+3. Enable Supabase Auth (Google or email/OTP)
+4. Build the Login page
+
+**Commit count so far: 3**
